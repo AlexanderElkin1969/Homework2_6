@@ -1,10 +1,10 @@
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         List<Integer> nums = new ArrayList<>(List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
         List<String> text = new ArrayList<>(List.of("В", "консоль", "выводятся", "только", "уникальные", "слова",
-         "из", "списка", "слов", "Код", "работает", "с", "любой", "последовательностью", "и", "объемом", "списка", "слов"));
+                "из", "списка", "слов", "Код", "работает", "с", "любой", "последовательностью", "и", "объемом", "списка", "слов"));
 
         task1(nums);
         task2(nums);
@@ -52,7 +52,7 @@ public class Main {
             num = 0;
             for (String str : text) {
                 if (strSet.equals(str)) {
-                    num ++;
+                    num++;
                 }
             }
             if (num > 1) {
